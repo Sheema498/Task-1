@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navbar Gradient</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height:100vh;
+    background: linear-gradient(to bottom, #27c1c3, #2db8a0, #7a4de8);
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+nav{
+    margin-top:60px;
+}
+ul{
+    list-style:none;
+    display:flex;
+    background: rgba(255,255,255,0.2);
+    border-radius:4px;
+}
+ul li{
+    padding:12px 28px;
+    color:#fff;
+    font-size:14px;
+}
+ul li.active{
+    background:#fff;
+    color:#2db8a0;
+    border-radius:3px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li class="active">Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Store</li>
+    </ul>
+</nav>
+
+</body>
+</html>
